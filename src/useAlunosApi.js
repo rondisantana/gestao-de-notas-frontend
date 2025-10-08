@@ -4,7 +4,7 @@ import createDOMPurify from "dompurify";
 
 // O URL público do seu Back-End no Render
 // Este é o único lugar no front-end que precisa saber o endereço da API!
-const API_BASE_URL = "https://gestao-de-notas-api.onrender.com/api/alunos";
+const API_BASE_URL = "https://gestao-de-notas-api.onrender.com/api";
 
 // Configuração do DOMPurify para evitar ataques XSS
 const DOMPurify = createDOMPurify(window);
