@@ -100,7 +100,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/alunos";
+  const API_URL = "https://gestao-de-notas-api.onrender.com/api/alunos";
 
   // --- Função para buscar dados da API (GET) ---
   const fetchAlunos = async () => {
