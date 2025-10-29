@@ -241,7 +241,7 @@ function App() {
     } catch (err) {
       console.error("Erro ao carregar alunos:", err);
       setError(
-        `Erro ao conectar com o servidor Node.js. Verifique se o backend em ${RENDER_BASE_URL} está rodando.`
+        `Erro ao conectar com o servidor Node.js. Verifique se o backend em ${RENDER_BASE_BASE} está rodando.`
       );
     } finally {
       setLoading(false);
